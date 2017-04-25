@@ -10,7 +10,7 @@ A PHP web shell and its Python based client
 * Hostname and username (whoami) detection
 * (Mostly) Clean exiting
 * Ability to still interact with via a browser
-* Obfuscated server (this is possible with most/all web shells, I just provide one with it)
+* Support for GET and POST methods
 
 ![Browser](https://www.doyler.net/wp-content/uploads/rwsh/rwsh-2-browser.png)
 
@@ -22,6 +22,7 @@ A PHP web shell and its Python based client
 * Handle all exit cases better
 * Perform OS detection and better prompt displays
 * Look into the ability to change directories (change the prompt, prepend the current directory to any requests?)
-* Switch from GET to POST or cookies (GET is logged, HTTP 414 errors, etc.)
 * Pseudo random key for forward-secrecy
 * Better encoded version to avoid detection (grep, AI-Bolit)
+* Clean up and add more methods
+* Add support for more HTTP verbs as well as headers (cookies, arbitrary, etc.)
